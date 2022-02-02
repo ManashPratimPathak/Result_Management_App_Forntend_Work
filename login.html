@@ -19,9 +19,17 @@
             <div class="rightcontentWrapper">
                 <h1>USER LOGIN</h1>
                 <form action="">
+                    <i class="fas fa-user"></i>
                     <input type="text" placeholder="Username">
+                    <i class="fas fa-lock"></i>
                     <input type="password" placeholder="Password">
+                    <div class="nestedFormDiv">
+                        <label for="rememberMe">Remember Me</label>
+                        <input type="checkbox" name="rememberMe" id="rememberMe">
+                        <a href="forgot_password_link">Forgot password?</a>
+                    </div>
                     <input id="submit" style="background-image: linear-gradient(90deg,#E75C25,#F27C28);" type="submit" placeholder="login">
+                    <a id="forgotPassword" href="forgot_password_link">Create Account</a>
                 </form>
             </div>
         </div>   

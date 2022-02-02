@@ -3,6 +3,7 @@
     margin: 0%;
     font-family: 'Montserrat', sans-serif;
     border-style: none;
+    text-decoration: none;
 }
 
 .loginPage-background{
@@ -58,29 +59,66 @@
     flex-direction: column;  
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .rightcontentWrapper input{
     margin-bottom: 40px;
     width: 50%; 
-    padding: 1.5% 2.5%; 
+    padding: 2% 0%; 
+    padding-left: 8%;
     border-radius: 12px;
     background-color: #97F9E3;
     box-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 40%);
+    outline: none;
+}
+
+#rememberMe{
+    width: auto;
+    margin-right: 55px;
+    margin-left: 7px;
 }
 
 #submit{
     margin-bottom: 40px;
-    width: 5%; 
+    width: 20%; 
     padding: 1.5% 2.5%; 
     border-radius: 12px;
     box-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 40%);
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ::-webkit-input-placeholder { /* Edge */
     color: black !important;
     opacity: 1;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    
+    text-shadow: 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+    padding-left: 6%;  
+  }
+
+  .fa-lock{
+      position: absolute;
+      left: 24%;
+      top: 30%;
+  }
+
+  .fa-user{
+    position: absolute;
+    left: 24%;
+    top: 4%;
+  }
+
+  form a{
+      color: black;
+  }
+
+
+
+  #forgotPassword{
+      
+      color: #F27C28;
+      font-weight: 500;
   }
