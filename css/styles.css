@@ -409,7 +409,7 @@ body{
     top: 4%;
   }
 
-  form a{
+  .form-l a{
       color: black;
   }
 
@@ -418,3 +418,5 @@ body{
       color: #F27C28;
       font-weight: 500;
   }
+
+  /* logIN-page end */
